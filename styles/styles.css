@@ -76,7 +76,8 @@ header {
   display: grid;
   grid-template-columns: 110px auto;
   align-items: center;
-  border: 1px solid #427aa1;
+  background-color:white;
+  border-radius: 25px;
 }
 
 img {
@@ -91,29 +92,27 @@ img {
 .img1{
     grid-column: 1/2;
     grid-row: 1/4;
+    margin: 20px;
 }
 .title-header{
     grid-column: 2/3;
     grid-row: 2/3;
+    text-align: center;
 }
-.home-grid{
 
-}
 .title1{
-
+    padding:15px;
 }
-.ul-list{
-
+.ul-list li{
+    padding: 10px;
 }
 .paragraph1{
-
+    padding: 20px;
 }
-.footer{
 
-}
 .footer-title{
-
+    text-align: center;
 }
-.footer-time{
-
+.footer-date{
+    text-align: center;
 }
