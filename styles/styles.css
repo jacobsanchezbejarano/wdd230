@@ -29,9 +29,10 @@ body {
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
-  margin: 0;
+  margin: 0 auto;
   color: #444;
   padding-top: 0;
+  max-width: 1200px;
 }
 
 h1 {
@@ -66,7 +67,7 @@ h3 {
 }
 main {
   background-color: white;
-  max-width: 1200px;
+  
 }
 #content {
   margin: 0 auto;
