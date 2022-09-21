@@ -1,0 +1,11 @@
+@media (min-width: 32.5em) {
+    h1 {
+        font-size: 45px;
+    }
+    body {
+        max-width: 750px;
+    }
+    img {
+        max-width:200px;
+    }
+}
