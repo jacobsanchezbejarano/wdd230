@@ -1,0 +1,82 @@
+:root{
+    --heading-font: "DM Serif Display";
+    --paragraph-font: "Source Serif 4";
+}
+
+body {
+	font-size: 16px;
+    /*font-family: "sansita", Ubuntu, sans-serif;
+    */
+	font-family: var (--paragraph-font), Ubuntu, sans-serif;
+    
+}
+
+h1, h2, h3 {
+    font-family: var (--heading-font), Ubuntu, sans-serif;
+	padding: 1rem;
+	margin: 0;
+}
+
+/* phone or baseline views **************************/
+
+
+
+.header {
+	margin-bottom: 15px;
+	text-align: center;
+}
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #536878;
+}
+
+main section {
+	background-color: #eee;
+	border-radius: 15px;
+}
+
+
+.colimage {
+	box-shadow: 0 0 30px #333;
+}
+
+section {
+	margin : 0;
+	padding : 0; 
+	border : 0;
+}
+
+p, a{
+	padding: 0.5rem 1rem;
+	margin: 0 2rem;
+}
+
+.subtitle {
+	background-color: rgb(40, 59, 95);
+	color: #fff;
+	
+}
+
+img {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.footer {	
+	text-align: center;
+	margin:auto;
+}
+
+header, footer {
+	background-color: rgb(18, 29, 49);
+	color: #fff;
+}
+
