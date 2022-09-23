@@ -5,15 +5,13 @@
 
 body {
 	font-size: 16px;
-    /*font-family: "sansita", Ubuntu, sans-serif;
-    */
-	font-family: var (--paragraph-font), Ubuntu, sans-serif;
+	font-family: var (--paragraph-font), sans-serif;
     
 }
 
 h1, h2, h3 {
-    font-family: var (--heading-font), Ubuntu, sans-serif;
-	padding: 1rem;
+    font-family: var (--heading-font), sans-serif;
+	padding: 1em;
 	margin: 0;
 }
 
