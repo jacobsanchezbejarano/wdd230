@@ -1,0 +1,174 @@
+@charset "UTF-8"; /* not necessary */
+/* #0C1D47  #d10812  #7e7f9a  #DEE5E5  #f4f7f5*/
+/* Colors https://coolors.co/0c1d47-d10812-7e7f9a-dee5e5-f4f7f5 */
+/*
+
+font-family: 'Playfair Display', serif; HEADINGS
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+.primary {
+    background-color: #0C1D47;
+    color: #f4f7f5;
+    height: 300px;
+}
+.secondary {
+    background-color: #7e7f9a;
+    color: #f4f7f5;
+    height: 300px;
+}
+.accent1 {
+    background-color: #d10812;
+    color: #f4f7f5;
+    height: 300px;
+}
+.accent2 {
+    background-color: #dee5e5;
+    height: 300px;
+}
+.accent3 {
+    background-color: #f4f7f5;
+    height: 300px;
+}
+
+.colored {
+    background-color: #7e7f9a;
+    color: #f4f7f5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+header,
+footer {
+	background-color: #0C1D47;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    color: #f4f7f5;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: #536878;
+}
+
+p {
+	padding: .5rem;
+}
+
+nav {
+	background-color: #0C1D47;
+	text-align: center;
+	box-shadow: 0 0 30px #7E7F9A;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #7E7F9A;
+	color: #0C1D47;
+}
+
+main {
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+    padding: 0.5rem;
+}
+
+main .submenu {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+
+.submenu ul {
+	margin-left: 2rem;
+}
+
+main picture {
+	display: none;
+	margin: 1rem;
+}
+
+main article {
+	margin: 1rem;
+}
+
+footer {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	font-weight: 700;
+    margin-top: 1rem;
+}
+
+table {
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+}
+tr, td {
+    padding: 10px;
+} 
+
+td {
+    border: solid 1px #7e7f9a;
+}
+
+table img {
+    max-width: 200px;
+}
+
+main h1, h2, h3, h4, p, li {
+    padding: 10px;
+}
+
+li {
+    margin-left: 40px;
+}
