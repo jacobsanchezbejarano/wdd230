@@ -254,3 +254,7 @@ footer p {
 .date-header {
     text-align: center;
 }
+
+.hide-small {
+    display: none;
+}

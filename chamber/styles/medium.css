@@ -80,15 +80,24 @@
 	.info {
 		grid-column: 1/4;
 		grid-row: 2/3;
+		display: block;
 	}
 
 	.info p {
-		display: flex;
+		display: block;
 		flex-direction: row;
 		width: 100%;
 	}
 
 	.date-footer {
-		margin: auto;
+		text-align: center;
+	}
+
+	.info p span {
+		margin: 10px;
+	}
+
+	.hide-small {
+		display: inline-block;
 	}
 }
