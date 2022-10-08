@@ -258,3 +258,7 @@ footer p {
 .hide-small {
     display: none;
 }
+
+span {
+    display: inline-block;
+}
