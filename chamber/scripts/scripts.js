@@ -12,9 +12,9 @@ fetch('https://yahoo-weather5.p.rapidapi.com/weather?lat=-17.770253&long=-63.182
 	.catch(err => console.error(err));
 
 function set_weather_data(response){
-    el_temperature = document.querySelector('#temperature');
-    el_description_temperature = document.querySelector('#description-temperature');
-    el_wind_speed = document.querySelector('#wind-speed');
+    const el_temperature = document.querySelector('#temperature');
+    const el_description_temperature = document.querySelector('#description-temperature');
+    const el_wind_speed = document.querySelector('#wind-speed');
 
     el_temperature.textContent = response.current_observation.condition.temperature + "°C";
     el_description_temperature.textContent = response.current_observation.condition.text;
