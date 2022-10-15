@@ -107,6 +107,18 @@
 	}
 
 
-
+	.join-us {
+		width: 100%;
+		margin: 0 auto;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		background-color: #D10812;
+		color: #F4F7F5;
+	}
+	
+	.join-us:hover{
+		background-color: #7E7F9A;
+	}
 
 }
