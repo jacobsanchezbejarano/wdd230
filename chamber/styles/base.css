@@ -141,6 +141,11 @@ header div a {
     margin: 1.5rem;
 }
 
+header .second a {
+    padding: 0 5px;
+    margin: auto;
+}
+
 header div nav {
     background-color: #0C1D47;
 }
@@ -305,4 +310,8 @@ span {
     text-align: right;
     font-size: 36px;
     right: 15px;
+}
+
+.contact a {
+    font-size: 20px;
 }
