@@ -100,4 +100,13 @@
 	.hide-small {
 		display: inline-block;
 	}
+
+	.call-to-action {
+		right: 15px;
+		bottom:35px;
+	}
+
+
+
+
 }
