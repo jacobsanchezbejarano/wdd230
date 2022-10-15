@@ -232,7 +232,6 @@ aside {
 }
 
 main div {
-    height: 150px;
     background-color: #DEE5E5;
     margin-bottom: 10px;
     padding: 10px;
@@ -262,4 +261,14 @@ footer p {
 
 span {
     display: inline-block;
+}
+
+.hero {
+    padding: 0;
+}
+
+.banner {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
 }
