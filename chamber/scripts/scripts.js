@@ -2,9 +2,6 @@ function set_weather_data(){
     const T = parseFloat(document.querySelector('#el-temperature').textContent);
     const V = parseFloat(document.querySelector('#el-windspeed').textContent);
     
-    console.log(T);
-    console.log(V);
-    
     const el_wind_chill = document.querySelector('#el-windchill');
 
     let windchill = 0; 
