@@ -368,11 +368,7 @@ main figure.myphoto img {width: 100%;}
 main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
 
 main picture.photoA img {width: 100%;}
-main picture.photoA p {
-    text-align: center; 
-    font-weight: 500;
-    color: #d0aa94;
-}
+
 
 picture.photoA {
     display: block;
