@@ -49,7 +49,13 @@
     <main>
            
         <div class="hero">
-            <img class="banner" src="./images/santa-cruz-2.jpg" alt="Santa Cruz">
+            <picture class="photoA">
+                <source media="(max-width: 300px)" srcset="images/wdd230-org500x300.webp">
+                <source media="(max-width: 500px)" srcset="images/wdd230-org800x500.webp">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org1200x800.webp">
+                <img src="images/wdd230-org1200x800.webp" alt="santacruz">
+                <div>People</div>
+            </picture>
             <button class="call-to-action">Join the Chamber</button>
         </div>
 
@@ -67,7 +73,7 @@
             
             <div class="weater-div">
                 <picture>
-                    <img src="images/2682815_cloud_day_forecast_precipitation_snow_icon 128x128.png" alt="weater-icon">
+                    <img src="images/2682815_cloud_day_forecast_precipitation_snow_icon_128x128.png" alt="weater-icon">
                 </picture>
                 <h3 id="temperature"><span id="el-temperature">9</span>°C</h3>
             </div>

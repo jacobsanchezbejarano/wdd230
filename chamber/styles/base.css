@@ -363,3 +363,19 @@ span {
     width: 90px;
     position: absolute;
 }
+
+main figure.myphoto img {width: 100%;}
+main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
+
+main picture.photoA img, main picture.photoB img {width: 100%;}
+main picture.photoA div, main picture.photoB div {
+    text-align: center; 
+    font-weight: 500;
+    color: #d0aa94;
+}
+
+picture.photoA {
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+}
