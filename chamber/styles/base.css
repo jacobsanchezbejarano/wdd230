@@ -159,6 +159,12 @@ header .second a {
     margin: auto;
 }
 
+header .second a img {
+    width: 75%;
+    min-width: 1.5rem;
+    margin: auto;
+}
+
 header div nav {
     background-color: #0C1D47;
 }
@@ -343,4 +349,17 @@ span {
 
 .contact a {
     font-size: 20px;
+}
+
+.weater-div {
+    display: inline;
+}
+
+.weater-div {
+    position: relative;
+}
+
+.weater-div picture img {
+    width: 90px;
+    position: absolute;
 }

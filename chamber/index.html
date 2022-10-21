@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Chamber of Commerce of Santa Cruz</title>
 </head>
 <body>
@@ -24,8 +23,8 @@
             <h3 class="header-title">Chamber of Commerce of Santa Cruz</h3>
         </div>
         <div class="second">
-            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/"><img src="images/104498_facebook_icon.png" alt="icon-facebook"></a>
+            <a href="https://instagram.com/"><img src="images/1161953_instagram_icon.png" alt="icon-instagram"></a>
         </div>
         <div>
             <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
@@ -65,10 +64,17 @@
 
         <div class="weather">
             <h3>Weather</h3>
-            <h3 id="temperature">°C</h3>
-            <h4 id="description-temperature">Description</h4>
+            
+            <div class="weater-div">
+                <picture>
+                    <img src="images/2682815_cloud_day_forecast_precipitation_snow_icon 128x128.png" alt="weater-icon">
+                </picture>
+                <h3 id="temperature"><span id="el-temperature">9</span>°C</h3>
+            </div>
+            <h4 id="description-temperature">Partly Cloudy</h4>
             <hr>
-            <p id="wind-speed">Wind Speed</p>
+            <p id="wind-speed">Wind Speed: <span id="el-windspeed">16</span> km/h</p>
+            <p id="wind-chill">Wind Chill: <span id="el-windchill"></span></p>
 
         </div>
 
