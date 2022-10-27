@@ -1,0 +1,22 @@
+.lazyloading {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+.lazyloading img {
+    padding: 10px;
+}
+
+.lazyloading img[data-src] {
+	filter: blur(0.2em);
+}
+.lazyloading img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+}
+
+h1 {
+    text-align: center;
+}
