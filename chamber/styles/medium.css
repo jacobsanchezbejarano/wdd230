@@ -120,4 +120,34 @@
 		background-color: #7E7F9A;
 	}
 
+	.aside-discover {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.aside-discover picture {
+		width: 45%;
+		margin: 0 auto;
+	}
+	
+	picture {
+		margin-bottom: 10px;
+	}
+	
+	img[data-src] {
+		filter: blur(0.2em);
+	}
+	img {
+		filter: blur(0em);
+		transition: filter 0.5s;
+	}
+	
+	.weather-discover {
+		grid-column: 1/4;
+	}
+
+	.event-discover {
+		grid-column: 1/3;
+	}
+
 }
