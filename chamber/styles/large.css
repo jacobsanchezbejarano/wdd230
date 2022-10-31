@@ -113,7 +113,7 @@ div p, div h1, div h2, div h3 {
     grid-row: 1/2;
 }
 
-.aside-discover picture {
+.aside-discover figure {
     width: 100%;
     margin: 0 auto;
 }
