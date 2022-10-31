@@ -374,7 +374,7 @@ picture.photoA {
     display: block;
 }
 
-.aside-discover p {
+.aside-discover figcaption {
     text-align: center;
     padding: 10px;
     background-color: #7e7f9a;
