@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <title>Chamber of Commerce of Santa Cruz</title>
+</head>
+<body>
+    
+    
+    <div id="message"></div>
+
+
+    <header>
+
+        <div class="first">
+            <img class="logo" src="./images/logo.webp" alt="Logo image">
+            <h3 class="header-title">Chamber of Commerce of Santa Cruz</h3>
+        </div>
+        <div class="second">
+            <a href="https://www.facebook.com/"><img src="images/104498_facebook_icon.png" alt="icon-facebook"></a>
+            <a href="https://instagram.com/"><img src="images/1161953_instagram_icon.png" alt="icon-instagram"></a>
+        </div>
+        <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li class="active"><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>    
+                </ul>
+            </nav>
+        </div>
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>
+        
+    </header>
+    
+
+
+
+
+    <main>
+
+        <h1>Join the Chamber</h1>
+        <form action="thankyou.html" method="get">
+            <div id="message"></div>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="firstname" name="firstname" required placeholder="Enter your first name" />
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lastname" name="lastname" required />
+            
+            <label for="lname">Business Position Title:</label>
+            <input type="text" id="bpositiontitle" name="bpositiontitle" pattern="[a-z-' ']{7,}" optional />
+            
+            <label for="email">Email address:</label>
+            <input type="text" id="email" name="email" placeholder="example@exa.ex" required />
+
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="bname">Business Name/Title:</label>
+            <input type="text" id="bname" name="bname" required /> 
+
+            <div id="membership-levels">
+                <label for="np">NP Membership is for non profit organizations and there is no fee</label>
+                <input type="radio" name="np" id="np">
+                <label for="bronze">Bronze Membership</label>
+                <input type="radio" name="bronze" id="bronze">
+                <label for="silver">Silver Membership</label>
+                <input type="radio" name="silver" id="silver">
+                <label for="gold">Gold Membership</label>
+                <input type="radio" name="gold" id="gold">
+            </div>
+    
+            <label for="comments">Business Description:</label>
+            <textarea id="comments" name="comments" required></textarea>
+            
+            <!-- Assign hour with js -->
+            <input type="hidden" name="form-hour" id="form-hour" value="4">
+
+            <input id="btnSubmit" type="submit" value="Join">
+            
+
+        </form>
+
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="./images/logo.webp" alt="Logo image">
+        </div>
+        <div class="title-footer">
+            <p>Chamber of Commerce of Santa Cruz</p>
+            <p>Las Americas, Grigota st.</p>
+        </div>
+        <div class="contact">
+            <p>jake_76847@hotmail.com</p>
+            <p>+59177858921</p>
+            <p>
+                <a href="https://www.google.es/maps/place/Av.+Las+Americas+143,+Santa+Cruz+de+la+Sierra/@-17.7923433,-63.1865421,15z/data=!3m1!4b1!4m5!3m4!1s0x93f1e86b114c67cf:0xc51c1fb1949617c9!8m2!3d-17.7923435!4d-63.1778088?hl=es">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Location
+                </a></p>
+        </div>
+        <div class="info">
+
+            <p>
+                <span>&copy;<span id="©">
+                </span> Chamber of Commerce of Santa Cruz</span>
+                <span class="hide-small">|</span>
+                <span>  Jacob Sanchez Bejarano </span>
+                <span class="hide-small">|</span>
+                <span>  WDD 230 Project </span>
+                <span class="hide-small">|</span>
+                <span>  Last modification:  <span id="dateMod"></span></span>
+            </p>
+            
+        </div>            
+    </footer>
+
+    
+
+    <script src="scripts/date.js"></script>
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/lazyloading.js"></script>
+    
+</body>
+</html>
