@@ -194,12 +194,12 @@ header div nav ul li a {
 }
 
 header div nav ul li.active a {
-    background-color: #7e7f9a;
+    background-color: #4c4c57;
     color: #fff;
 }
 
 header div nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #4c4c57;
 }
 
 header div nav ul {
