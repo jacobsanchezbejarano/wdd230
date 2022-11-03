@@ -1,12 +1,17 @@
 .lazyloading {
     display: flex;
     flex-direction: column;
-    margin: 10px auto;
-    max-width: 300px;
 }
 
-.lazyloading img {
-    padding: 10px;
+.lazyloading picture {
+    height: 400px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 .lazyloading img[data-src] {
@@ -15,7 +20,12 @@
 .lazyloading img {
 	filter: blur(0em);
 	transition: filter 0.5s;
+    height: 400px;
+    width: 300px;
+
 }
+
+
 
 h1 {
     text-align: center;
