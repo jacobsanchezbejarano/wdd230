@@ -439,10 +439,7 @@ form input[type=submit] {
 form .fs label {
     padding: .75rem 0;
     display: block;
-}
-
-input {
-    padding: 5px;
+    
 }
 
 form legend {
@@ -456,17 +453,24 @@ form label.info {
 
 .info input {
     display: block;
+    width: 16rem;
+    border-radius: 5px;
+}
+
+.info input, textarea {
+    padding: 12px;
 }
 
 .top {
     display: block;
 }
 
+
 textarea {
-    width: 96%;
-    max-width: 20rem;
+    width: 16rem;
     height: 6rem;
     display: block;
+    border-radius: 5px;
 }
 
 .info input:required {
