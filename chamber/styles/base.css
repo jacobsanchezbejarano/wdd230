@@ -420,6 +420,7 @@ form .fs {
     margin: 1rem;
     display: flex;
     flex-direction: column;
+    min-width: 17rem;
     
 }
 
@@ -453,7 +454,7 @@ form label.info {
 
 .info input {
     display: block;
-    width: 16rem;
+    width: 15rem;
     border-radius: 5px;
 }
 
@@ -467,7 +468,7 @@ form label.info {
 
 
 textarea {
-    width: 16rem;
+    width: 15rem;
     height: 6rem;
     display: block;
     border-radius: 5px;
