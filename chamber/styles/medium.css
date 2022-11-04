@@ -129,6 +129,13 @@
 		width: 45%;
 		margin: 0 auto;
 	}
+
+	img:hover {
+		transform: scale(1.02, 1.02);
+		background-color: coral;
+		box-shadow: 0 5px 10px 10px rgb(31, 31, 80);
+		transition: filter 0.5s;
+	}
 	
 	picture {
 		margin-bottom: 10px;
