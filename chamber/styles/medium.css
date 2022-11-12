@@ -158,4 +158,26 @@
 		
 	}
 
+	.benefits {
+		display: block;
+	}
+
+	.main-join {
+		grid-template-columns: 2fr 1fr;
+	}
+
+	.form-div {
+		grid-column: 1/2;
+	}
+
+	.benefits {
+		grid-column: 2/3;
+	}
+
+	article ul li {
+		padding-left: 3px;
+	}
+	
+	
+
 }

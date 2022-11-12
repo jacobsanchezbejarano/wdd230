@@ -483,3 +483,10 @@ textarea {
     border: green solid 2px;
 }
 
+.benefits {
+    display: none;
+}
+
+h2 {
+    color: white;
+}
