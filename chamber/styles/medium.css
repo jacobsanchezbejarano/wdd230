@@ -178,6 +178,10 @@
 		padding-left: 3px;
 	}
 	
-	
+    .directory-main {
+        display: block;
+    }
+
+
 
 }

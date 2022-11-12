@@ -37,6 +37,7 @@ let grid = document.getElementById('grid');
 
 function create_card(business){
     let section = document.createElement('section');
+    section.setAttribute('class', 'card');
     let img = document.createElement('img');
     img.setAttribute('src', business.imageUrl);
     img.setAttribute('alt', business.name);

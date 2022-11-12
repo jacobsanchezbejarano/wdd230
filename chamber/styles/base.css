@@ -494,8 +494,9 @@ h2 {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	align-items: center;
+    grid-gap: 10px;
 }
 
 .list {
@@ -540,7 +541,23 @@ section a {
 	font-size: 0.9rem;
 }
 
-section img {
-	height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+.card {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding-bottom: 10px;
+    height: 100%;
+    margin: 10px;
+}
+
+.card a {
+    color: #1c57eb;
+}
+
+.card a:hover {
+    color: #ce7865;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin: 0;
 }
