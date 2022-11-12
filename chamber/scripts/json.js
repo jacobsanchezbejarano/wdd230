@@ -1,4 +1,4 @@
-const requestURL = 'https://jacobsanchezbejarano.github.io/wdd230/chamber/directory.json';
+const requestURL = 'https://jacobsanchezbejarano.github.io/wdd230/chamber/data.json';
 const cards = document.querySelector('.grid');
 
 
