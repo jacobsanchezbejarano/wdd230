@@ -1,5 +1,5 @@
 const requestURL = 'https://jacobsanchezbejarano.github.io/wdd230/chamber/directory.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('.grid');
 
 
 const gridbutton = document.querySelector("#grid");

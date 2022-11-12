@@ -1,7 +1,7 @@
 {
     "directory": [
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-bisa.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-bisa.png",
         "name": "Bisa",
         "adress": "",
         "phone": "",
@@ -9,14 +9,14 @@
         "membership": ""
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-campeon.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-campeon.png",
         "name": "Campeon",
         "adress": "",
         "phone": "",
         "site": "",
         "membership": ""
         },{
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fairplay.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-fairplay.png",
         "name": "Fairplay",
         "adress": "",
         "phone": "",
@@ -24,7 +24,7 @@
         "membership": ""
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fancesa.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-fancesa.png",
         "name": "Fancesa",
         "adress": "",
         "phone": "",
@@ -32,14 +32,14 @@
         "membership": ""
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fidalga.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-fidalga.png",
         "name": "Fidalga",
         "adress": "",
         "phone": "",
         "site": "",
         "membership": ""
         },{
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-pil.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-pil.png",
         "name": "Pil",
         "adress": "",
         "phone": "",
@@ -47,7 +47,7 @@
         "membership": ""
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-sofia.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-sofia.png",
         "name": "Sofia",
         "adress": "",
         "phone": "",
@@ -55,14 +55,14 @@
         "membership": ""
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-delvalle.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-delvalle.png",
         "name": "Del Valle",
         "adress": "",
         "phone": "",
         "site": "",
         "membership": ""
         },{
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-mercantil.png",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-mercantil.png",
         "name": "Mercantil",
         "adress": "",
         "phone": "",
