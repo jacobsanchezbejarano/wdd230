@@ -43,7 +43,7 @@ function create_card(business){
     img.setAttribute('alt', business.name);
 
     let h3 = document.createElement('h3');
-    h3.textContent = business.title;
+    h3.textContent = business.name;
 
     let p = document.createElement('p');
     p.textContent = business.address;

@@ -519,7 +519,7 @@ h2 {
 }
 
 .list section {
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: left;
 }
 
@@ -561,3 +561,18 @@ section a {
     height: auto;
     margin: 0;
 }
+
+.menu {
+    text-align: center;
+}
+
+.menu button {
+    padding: 8px;
+    background-color: #4c4c57;
+    color: #DEE5E5;
+}
+
+.list p, .list h3 {
+    width: 100%;
+}
+
