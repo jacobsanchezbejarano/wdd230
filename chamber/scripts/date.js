@@ -20,5 +20,3 @@ day: 'numeric' };
 document.querySelector('#datetime').textContent = 
 new Date(Date.now()).toLocaleString('en-UK',opciones2);
 
-
-document.querySelector('#form-hour').value = date;

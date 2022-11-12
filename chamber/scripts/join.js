@@ -8,3 +8,6 @@ btitle.addEventListener("input", (event) => {
     btitle.setCustomValidity("");
   }
 });
+
+date = new Date(Date.now());
+document.querySelector('#form-hour').value = date;

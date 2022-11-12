@@ -1,0 +1,76 @@
+{
+    "directory": [
+        {
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-bisa.png",
+        "name": "Sofia",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },
+        {
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-campeon.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },{
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fairplay.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },
+        {
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fancesa.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },
+        {
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fidalga.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },{
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-pil.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },
+        {
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-sofia.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },
+        {
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-delvalle.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        },{
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-mercantil.png",
+        "name": "",
+        "adress": "",
+        "phone": "",
+        "site": "",
+        "membership": ""
+        }
+        
+    
+            
+    ]
+}
