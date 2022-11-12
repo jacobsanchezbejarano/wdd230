@@ -2,7 +2,7 @@
     "directory": [
         {
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-bisa.png",
-        "name": "Sofia",
+        "name": "Bisa",
         "adress": "",
         "phone": "",
         "site": "",
@@ -10,14 +10,14 @@
         },
         {
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-campeon.png",
-        "name": "",
+        "name": "Campeon",
         "adress": "",
         "phone": "",
         "site": "",
         "membership": ""
         },{
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fairplay.png",
-        "name": "",
+        "name": "Fairplay",
         "adress": "",
         "phone": "",
         "site": "",
@@ -25,7 +25,7 @@
         },
         {
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fancesa.png",
-        "name": "",
+        "name": "Fancesa",
         "adress": "",
         "phone": "",
         "site": "",
@@ -33,14 +33,14 @@
         },
         {
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-fidalga.png",
-        "name": "",
+        "name": "Fidalga",
         "adress": "",
         "phone": "",
         "site": "",
         "membership": ""
         },{
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-pil.png",
-        "name": "",
+        "name": "Pil",
         "adress": "",
         "phone": "",
         "site": "",
@@ -48,7 +48,7 @@
         },
         {
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-sofia.png",
-        "name": "",
+        "name": "Sofia",
         "adress": "",
         "phone": "",
         "site": "",
@@ -56,14 +56,14 @@
         },
         {
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-delvalle.png",
-        "name": "",
+        "name": "Del Valle",
         "adress": "",
         "phone": "",
         "site": "",
         "membership": ""
         },{
         "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/bussines-mercantil.png",
-        "name": "",
+        "name": "Mercantil",
         "adress": "",
         "phone": "",
         "site": "",
