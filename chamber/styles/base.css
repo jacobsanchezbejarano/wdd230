@@ -542,14 +542,14 @@ section a {
 }
 
 .card {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: #f4f6f7 0px 14px 21px -7px;
     padding-bottom: 10px;
     height: 100%;
     margin: 10px;
 }
 
 .card a {
-    color: #1c57eb;
+    color: #99fdff;
 }
 
 .card a:hover {
