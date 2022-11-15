@@ -576,3 +576,12 @@ section a {
     width: 100%;
 }
 
+aside div img {
+    max-width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+aside div p {
+    text-align: center;
+}
