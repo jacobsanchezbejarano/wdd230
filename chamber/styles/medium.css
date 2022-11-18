@@ -186,7 +186,9 @@
 		flex-direction: row;
 	}
 	
-	
+	.thanks-div {
+		grid-column: 2/3;
+	}
 
 
 }

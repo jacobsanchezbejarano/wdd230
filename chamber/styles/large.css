@@ -131,6 +131,8 @@
         grid-column: 1/4;
     }
 
-
+    .thanks-div {
+		grid-column: 2/4;
+	}
 
 }
