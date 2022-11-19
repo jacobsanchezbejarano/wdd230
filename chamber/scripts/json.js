@@ -52,6 +52,9 @@ function create_card(business){
     let p1 = document.createElement('p');
     p1.textContent = business.phone;
 
+    let p2 = document.createElement('p');
+    p2.textContent = `Membership: ${business.membership}`;
+
     let a = document.createElement('a');
     a.setAttribute('href', business.site);
     a.textContent = business.site;
@@ -61,6 +64,7 @@ function create_card(business){
     section.appendChild(h3);
     section.appendChild(p);
     section.appendChild(p1);
+    section.appendChild(p2);
     section.appendChild(a);
 
     cards.appendChild(section);
