@@ -585,3 +585,15 @@ aside div img {
 aside div p {
     text-align: center;
 }
+
+.weather-attribution a {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    color: rgb(176, 173, 255);
+    text-decoration: underline;
+}
+
+.weather-attribution a:hover {
+    color: rgb(255, 157, 115);
+}
