@@ -70,16 +70,19 @@
 
         <div class="weather">
             <h3>Weather</h3>
+            <h4 id="place"></h4>
             
             <div class="weater-div">
-                <picture>
-                    <img src="images/2682815_cloud_day_forecast_precipitation_snow_icon_128x128.png" alt="weater-icon">
-                </picture>
-                <h3 id="temperature"><span id="el-temperature">9</span>°C</h3>
+                <figure>
+                    <picture>
+                        <img src="https://via.placeholder.com/50" id="weather-icon" alt="Weather Icon">
+                    </picture>
+                </figure>    
+                <h3 id="temperature"><span id="el-temperature"></span>°C</h3>
             </div>
-            <h4 id="description-temperature">Partly Cloudy</h4>
+            <h4 id="description-temperature"></h4>
             <hr>
-            <p id="wind-speed">Wind Speed: <span id="el-windspeed">16</span> km/h</p>
+            <p id="wind-speed">Wind Speed: <span id="el-windspeed"></span> km/h</p>
             <p id="wind-chill">Wind Chill: <span id="el-windchill"></span></p>
 
         </div>
@@ -164,7 +167,6 @@
     <script src="scripts/scripts.js"></script>
     <script src="scripts/date.js"></script>
     <script src="scripts/toggle.js"></script>
-    <script src="scripts/localstorage.js"></script>
     <script src="scripts/lazyloading.js"></script>
 </body>
 </html>
