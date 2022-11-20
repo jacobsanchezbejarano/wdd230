@@ -597,3 +597,7 @@ aside div p {
 .weather-attribution a:hover {
     color: rgb(255, 157, 115);
 }
+
+#weather-icon:hover {
+    background-color: transparent;
+}
