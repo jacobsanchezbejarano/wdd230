@@ -77,14 +77,14 @@
     "board": [
         {
             "name": "Jacob Sanchez",
-            "image": "https://via.placeholder.com/100",
+            "image": "chamber/images/board-jacob-sanchez.jpg",
             "phone": "5555-5555",
             "position": "Chair",
             "email": "example@gmail.com"
         },
         {
             "name": "Ben Diaz",
-            "image": "https://via.placeholder.com/100",
+            "image": "chamber/images/board-ben-diaz.jpg",
             "phone": "5555-5555",
             "position": "Chair-Elect",
             "email": "example@gmail.com"
@@ -105,7 +105,7 @@
         },
         {
             "name": "Noemi Bejarano",
-            "image": "https://via.placeholder.com/100",
+            "image": "chamber/images/board-ben-diaz.jpg",
             "phone": "5555-5555",
             "position": "Vice Chair",
             "email": "example@gmail.com"
