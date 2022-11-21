@@ -7,23 +7,13 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    //console.table(jsonObject);  // temporary checking for valid response and data parsing
     const board_of_directors = jsonObject['board'];
     board_of_directors.forEach(create_card_board);
   });
 
 
 function create_card_board(director){
-  /*
-  <article class="board-card">
-      <h3></h3>
-      <img src="https://via.placeholder.com/50" alt="Name">
-      <p></p>
-      <p></p>
-      <p></p>
-  </article> 
-  */
-
     let article = document.createElement('article');
     article.setAttribute('class','board-card')
 
