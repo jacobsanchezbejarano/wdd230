@@ -1,6 +1,6 @@
 const requestURL = 'https://jacobsanchezbejarano.github.io/wdd230/chamber/data.json';
 
-const board  = document.querySelector(".board");
+const board  = document.querySelector(".board-grid");
 
 fetch(requestURL)
   .then(function (response) {
