@@ -77,35 +77,35 @@
     "board": [
         {
             "name": "Jacob Sanchez",
-            "image": "",
+            "image": "https://via.placeholder.com/50",
             "phone": "5555-5555",
             "position": "Chair",
             "email": "example@gmail.com"
         },
         {
             "name": "Ben Diaz",
-            "image": "",
+            "image": "https://via.placeholder.com/50",
             "phone": "5555-5555",
             "position": "Chair-Elect",
             "email": "example@gmail.com"
         },
         {
             "name": "Jason Dee Harrison",
-            "image": "",
+            "image": "https://via.placeholder.com/50",
             "phone": "5555-5555",
             "position": "Past Chair",
             "email": "example@gmail.com"
         },
         {
             "name": "Helaman Chan",
-            "image": "",
+            "image": "https://via.placeholder.com/50",
             "phone": "5555-5555",
             "position": "Vice Chair",
             "email": "example@gmail.com"
         },
         {
             "name": "Noemi Bejarano",
-            "image": "",
+            "image": "https://via.placeholder.com/50",
             "phone": "5555-5555",
             "position": "Vice Chair",
             "email": "example@gmail.com"
