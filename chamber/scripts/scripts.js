@@ -63,3 +63,5 @@ function set_weather_data(weatherData){
 }
 
 
+document.querySelector('.call-to-action').addEventListener('click',() => location.assign('https://jacobsanchezbejarano.github.io/wdd230/chamber/join.html'));
+document.querySelector('.join-us').addEventListener('click',() => location.assign('https://jacobsanchezbejarano.github.io/wdd230/chamber/join.html'));
