@@ -77,14 +77,14 @@
     "board": [
         {
             "name": "Jacob Sanchez",
-            "image": "chamber/images/board-jacob-sanchez.jpg",
+            "image": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/board-jacob-sanchez.jpg",
             "phone": "5555-5555",
             "position": "Chair",
             "email": "example@gmail.com"
         },
         {
             "name": "Ben Diaz",
-            "image": "chamber/images/board-ben-diaz.jpg",
+            "image": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/board-ben-diaz.jpg",
             "phone": "5555-5555",
             "position": "Chair-Elect",
             "email": "example@gmail.com"
@@ -105,7 +105,7 @@
         },
         {
             "name": "Noemi Bejarano",
-            "image": "chamber/images/board-ben-diaz.jpg",
+            "image": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/board-ben-diaz.jpg",
             "phone": "5555-5555",
             "position": "Vice Chair",
             "email": "example@gmail.com"
