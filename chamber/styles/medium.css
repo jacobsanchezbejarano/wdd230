@@ -190,5 +190,7 @@
 		grid-column: 2/3;
 	}
 
-
+	.board {
+		grid-row: 1/2;
+	}
 }

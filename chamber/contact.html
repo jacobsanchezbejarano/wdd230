@@ -41,9 +41,9 @@
                 <ul id="primaryNav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li class="active"><a href="#">Join</a></li>
+                    <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -58,20 +58,31 @@
 
 
     <main class="main-join">
+        📄 Contact page: The contact page contains essential and extended contact information for the chamber and 
+        its officers and board of directors. 
+    <div class="board">
+        <h2>Board of directors</h2>
+
+        <article class="board-card">
+            <h3></h3>
+            <img src="https://via.placeholder.com/50" alt="Name">
+            <p><strong></strong></p>
+            <p></p>
+            <p></p>
+        </article> 
+        
+    </div>
 
         <div class="form-div">
-            <h1>Join the Chamber</h1>
+            <h1>Contact</h1>
             <form action="thankyou.html" method="get">
                 <fieldset class="fs top">
-                    <legend>Applicant Information</legend>
+                    <legend>Contact us</legend>
                     <label class="info">First name*
                         <input type="text" id="firstname" name="firstname" required>
                     </label>
                     <label class="info">Last name*
                         <input type="text" id="lastname" name="lastname" required>
-                    </label>
-                    <label class="info">Business Position Title
-                        <input type="text" id="bpositiontitle" name="bpositiontitle" pattern="[A-Z a-z-' ']{7,}">
                     </label>
                     <label class="info">Email address*
                         <input type="text" id="email" name="email" placeholder="example@exa.ex" required>
@@ -79,82 +90,17 @@
                     <label class="info">Phone number*
                         <input type="tel" id="phone" name="phone" placeholder="15646546444" required>
                     </label>
-                    <label class="info">Business Name/Title*
-                        <input type="text" id="bname" name="bname" required>
+                    <label>Comments
+                        <textarea name="comments"></textarea>
                     </label>
                 </fieldset>
-
-                <fieldset class="fs">
-                    <legend>Membership Level</legend>
-                    <label>
-                        <input type="radio" name="levels" value="np"> Non Profit Membership
-                    </label>
-                    <label>
-                        <input type="radio" name="levels" value="bronze"> Bronze Membership
-                    </label>
-                    <label>
-                        <input type="radio" name="levels" value="silver"> Silver Membership
-                    </label>
-                    <label>
-                        <input type="radio" name="levels" value="gold"> Gold Membership
-                    </label>
-                </fieldset>
-
-                <fieldset class="fs">
-                    <legend>Brief Business Description</legend>
-                    <label>Business Description
-                        <textarea name="bdescription"></textarea>
-                    </label>
-                </fieldset>
-
-                <!-- Assign hour with js -->
-                <input type="hidden" name="form-hour" id="form-hour" value="">
 
                 <input id="btnSubmit" type="submit" value="Join">
 
 
             </form>
         </div>
-        <div class="benefits">
-            <h2>Benefits</h2>
-            <article>
-                <h3>Non Profit Membership</h3>
-                <ul>
-                    <li>Be part of the chamber of commerce.</li>
-                    <li>Obtain discounts of 10% in all the conferences we sponsor.</li>
-                </ul>
-                <p>Free</p>
-                <hr><br>
-            </article>
-            <article>
-                <h3>Bronze Membership</h3>
-                <ul>
-                    <li>Obtain access to our best contacts network through the site.</li>
-                    <li>All the benefits of the non profit membership.</li>
-                </ul>
-                    <p>200 USD anually</p>
-                <hr><br>
-            </article>
-            <article>
-                <h3>Silver Membership</h3>
-                <ul>
-                    <li>Get discounts of 30% in all the conferences speaches and events we promote.</li> 
-                    <li>All the benefits of lower levels</li>
-                </ul>
-                <p>400 USD anually</p>
-                <hr><br>
-            </article>
-            <article>
-                <h3>Gold Membership</h3>
-                <ul>
-                    <li>Get discounts of 50% in all the events promoted by the Chamber.</li>
-                    <li>Three advertising spots in the site montly.</li>
-                    <li>All the benefits of lower levels.</li>
-                </ul>
-                <p>800 USD anually</p>
-                
-            </article>
-        </div>
+        
 
     </main>
 
