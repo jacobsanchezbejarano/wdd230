@@ -17,19 +17,11 @@ fetch(requestURL)
   });
 
 
-  /*
-<div> 
-    <img src="https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-campeon.png" alt="Campeon Pollos">
-    <p>Make your order.</p>
-    <p>7989-9998</p>
-</div>
-*/
-
 let spotlights = [];
 
 function create_cards(businesses){
     let max = businesses.length;
-    console.log(max);
+
     
     while(spotlights.length < 3){
 
@@ -37,12 +29,13 @@ function create_cards(businesses){
 
         if(!spotlights.includes(random)){
             spotlights.push(random);
+            create_card(businesses[random]);
         }
 
     }
 
-    console.log(spotlights);
-    //businesses.forEach(create_card);
+    aside.lastChild.classList.add('spotlight3');
+
 }
 
 
@@ -50,6 +43,7 @@ function create_card(business){
 
 
     let div = document.createElement('div');
+    let div2 = document.createElement('div');
     //div.setAttribute('class', 'card');
 
     let img = document.createElement('img');
@@ -59,7 +53,7 @@ function create_card(business){
 
 
     let p = document.createElement('p');
-    p.textContent = business.address;
+    p.textContent = business.name;
 
     let p1 = document.createElement('p');
     p1.textContent = business.phone;
@@ -69,12 +63,13 @@ function create_card(business){
     a.setAttribute('href', business.site);
     a.textContent = business.site;
 
-    section.appendChild(img);
+    div2.appendChild(img);
+    div2.classList.add('div-height-50');
+    div.appendChild(div2);
+    div.appendChild(p);
+    div.appendChild(p1);
 
-    section.appendChild(p);
-    section.appendChild(p1);
-
-    section.appendChild(a);
+    div.appendChild(a);
 
     aside.appendChild(div);
 
