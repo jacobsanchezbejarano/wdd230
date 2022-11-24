@@ -145,4 +145,8 @@
 		grid-column: 3/4;
 	}
 
+    #btnSubmit {
+        width: 91%;
+    }
+
 }
