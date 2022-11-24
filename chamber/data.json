@@ -90,20 +90,6 @@
             "email": "example@gmail.com"
         },
         {
-            "name": "Jason Dee Harrison",
-            "image": "https://via.placeholder.com/100",
-            "phone": "5555-5555",
-            "position": "Past Chair",
-            "email": "example@gmail.com"
-        },
-        {
-            "name": "Helaman Chan",
-            "image": "https://via.placeholder.com/100",
-            "phone": "5555-5555",
-            "position": "Vice Chair",
-            "email": "example@gmail.com"
-        },
-        {
             "name": "Noemi Bejarano",
             "image": "./images/board-noemi-bejarano.webp",
             "phone": "5555-5555",
