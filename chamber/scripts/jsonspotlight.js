@@ -1,25 +1,9 @@
 const requestURL = 'https://jacobsanchezbejarano.github.io/wdd230/chamber/data.json';
-const cards = document.querySelector('.grid');
-
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector(".grid");
+const aside = document.querySelector('.aside');
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
 
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
 
 fetch(requestURL)
   .then(function (response) {
@@ -27,24 +11,52 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     //console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const businesses = jsonObject['directory'];
-    businesses.forEach(create_card);
+    const directory = jsonObject['directory'];
+    const businesses = directory.filter((business) => business.membership == 'Gold');
+    create_cards(businesses);
   });
 
 
+  /*
+<div> 
+    <img src="https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-campeon.png" alt="Campeon Pollos">
+    <p>Make your order.</p>
+    <p>7989-9998</p>
+</div>
+*/
 
-let grid = document.getElementById('grid');
+let spotlights = [];
+
+function create_cards(businesses){
+    let max = businesses.length;
+    console.log(max);
+    
+    while(spotlights.length < 3){
+
+        let random = Math.floor(Math.random()*max);
+
+        if(!spotlights.includes(random)){
+            spotlights.push(random);
+        }
+
+    }
+
+    console.log(spotlights);
+    //businesses.forEach(create_card);
+}
+
 
 function create_card(business){
-    let section = document.createElement('section');
-    section.setAttribute('class', 'card');
+
+
+    let div = document.createElement('div');
+    //div.setAttribute('class', 'card');
+
     let img = document.createElement('img');
     img.setAttribute('src', business.imageUrl);
     img.setAttribute('alt', business.name + " " + business.membership + " member");
     img.setAttribute('loading', 'lazy');
 
-    let h3 = document.createElement('h3');
-    h3.textContent = business.name;
 
     let p = document.createElement('p');
     p.textContent = business.address;
@@ -52,21 +64,18 @@ function create_card(business){
     let p1 = document.createElement('p');
     p1.textContent = business.phone;
 
-    let p2 = document.createElement('p');
-    p2.textContent = `Membership: ${business.membership}`;
-
+  
     let a = document.createElement('a');
     a.setAttribute('href', business.site);
     a.textContent = business.site;
 
     section.appendChild(img);
 
-    section.appendChild(h3);
     section.appendChild(p);
     section.appendChild(p1);
-    section.appendChild(p2);
+
     section.appendChild(a);
 
-    cards.appendChild(section);
+    aside.appendChild(div);
 
 }
