@@ -625,3 +625,6 @@ aside div p {
     width: 100px;
 }
 
+p, a, figcaption, li, label {
+    font-size: 1rem;
+}
