@@ -17,8 +17,8 @@ function create_card_board(director){
     let article = document.createElement('article');
     article.setAttribute('class','board-card')
 
-    let h3 = document.createElement('h3');
-    h3.textContent = director.name;
+    let h2 = document.createElement('h2');
+    h2.textContent = director.name;
 
     let img = document.createElement('img');
     img.setAttribute('src', director.image);
@@ -36,7 +36,7 @@ function create_card_board(director){
     let p2 = document.createElement('p');
     p2.textContent = director.email;
 
-    article.appendChild(h3);
+    article.appendChild(h2);
     article.appendChild(img);
     article.appendChild(p);
     article.appendChild(p1);
