@@ -40,7 +40,7 @@ function create_card(business){
     section.setAttribute('class', 'card');
     let img = document.createElement('img');
     img.setAttribute('src', business.imageUrl);
-    img.setAttribute('alt', business.name);
+    img.setAttribute('alt', business.name + " " + business.membership + " member");
     img.setAttribute('loading', 'lazy');
 
     let h3 = document.createElement('h3');
