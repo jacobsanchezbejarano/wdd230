@@ -52,7 +52,7 @@ function create_card(business){
     img.setAttribute('loading', 'lazy');
 
 
-    let p = document.createElement('p');
+    let h3 = document.createElement('h3');
     p.textContent = business.name;
 
     let p1 = document.createElement('p');
@@ -66,7 +66,7 @@ function create_card(business){
     div2.appendChild(img);
     div2.classList.add('div-height-50');
     div.appendChild(div2);
-    div.appendChild(p);
+    div.appendChild(h3);
     div.appendChild(p1);
 
     div.appendChild(a);
