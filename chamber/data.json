@@ -1,7 +1,7 @@
 {
     "directory": [
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-bisa.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-bisa.webp",
         "name": "Bisa",
         "address": "Av 16 de Julio 1628",
         "phone": "508-500-15",
@@ -9,14 +9,14 @@
         "membership": "Gold"
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-campeon.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-campeon.webp",
         "name": "Campeon",
         "address": "AV. CAÑOTO 571",
         "phone": "7989-9998",
         "site": "https://polloscampeon.com/",
         "membership": "Silver"
         },{
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-fairplay.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-fairplay.webp",
         "name": "Fairplay",
         "address": "Av. América y Santa Cruz Edif.Torre Norte#360.",
         "phone": "7513-5859",
@@ -24,7 +24,7 @@
         "membership": "Bronze"
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-fancesa.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-fancesa.webp",
         "name": "Fancesa",
         "address": "Av. Virgen de Cotoca s/n, zona barrio Juan C. Velarde",
         "phone": "3-3494110",
@@ -32,14 +32,14 @@
         "membership": "Gold"
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-fidalga.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-fidalga.webp",
         "name": "Fidalga",
         "address": "Av. El Trompillo esquina Yacuiba, Santa Cruz de la Sierra, Bolivia",
         "phone": "",
         "site": "https://www.fidalga.com/",
         "membership": "Silver"
         },{
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-pil.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-pil.webp",
         "name": "Pil",
         "address": "Warnes, Km. 24",
         "phone": "3 9232155",
@@ -47,7 +47,7 @@
         "membership": "Bronze"
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-sofia.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-sofia.webp",
         "name": "Sofia",
         "address": "4to anillo, Av. Pirai",
         "phone": "800124141",
@@ -55,14 +55,14 @@
         "membership": "Gold"
         },
         {
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-delvalle.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-delvalle.webp",
         "name": "Del Valle",
         "address": "Centro Empresarial Equipetrol Torre Alas Piso 9, Santa Cruz de la Sierra, Bolivia.",
         "phone": "800-104014",
         "site": "https://www.coca-coladebolivia.com.bo/marcas/del-valle",
         "membership": "Silver"
         },{
-        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/bussines-mercantil.webp",
+        "imageUrl": "https://jacobsanchezbejarano.github.io/wdd230/chamber/images/business-mercantil.webp",
         "name": "Banco Mercantil Santa Cruz",
         "address": "Oficina Central Santa Cruz Torre MSC",
         "phone": "311-4010",
