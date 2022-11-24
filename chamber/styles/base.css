@@ -637,6 +637,10 @@ aside a {
     color:#74dad0;
 }
 
+aside h3 {
+    text-align: center;
+}
+
 aside a:hover {
     color: #e9875f;
 }
