@@ -43,8 +43,8 @@ function create_card(business){
     img.setAttribute('alt', business.name + " " + business.membership + " member");
     img.setAttribute('loading', 'lazy');
 
-    let h3 = document.createElement('h3');
-    h3.textContent = business.name;
+    let h2 = document.createElement('h2');
+    h2.textContent = business.name;
 
     let p = document.createElement('p');
     p.textContent = business.address;
@@ -61,7 +61,7 @@ function create_card(business){
 
     section.appendChild(img);
 
-    section.appendChild(h3);
+    section.appendChild(h2);
     section.appendChild(p);
     section.appendChild(p1);
     section.appendChild(p2);
