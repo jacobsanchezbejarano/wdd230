@@ -20,3 +20,6 @@ day: 'numeric' };
 document.querySelector('#datetime').textContent = 
 new Date(Date.now()).toLocaleString('en-UK',opciones2);
 
+document.querySelector('.logo-footer').addEventListener('click',() => {location.assign('https://jacobsanchezbejarano.github.io/wdd230/chamber/');});
+document.querySelector('.logo').addEventListener('click',() => {location.assign('https://jacobsanchezbejarano.github.io/wdd230/chamber/');});
+document.querySelector('.header-title').addEventListener('click',() => {location.assign('https://jacobsanchezbejarano.github.io/wdd230/chamber/');});
