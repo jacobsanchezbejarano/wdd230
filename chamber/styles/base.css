@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/* not necessary */
-/* #0C1D47  #d10812  #7e7f9a  #DEE5E5  #f4f7f5*/
-/* Colors https://coolors.co/0c1d47-d10812-7e7f9a-dee5e5-f4f7f5 */
-/*
-
-font-family: 'Playfair Display', serif; HEADINGS
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-*/
 
 .primary {
     background-color: #0C1D47;
@@ -97,7 +87,13 @@ header div #datetime {
 }
 
 .logo {
-    width: 4rem;
+    width: 75px;
+    height: 75px;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 100px;
 }
 
 footer {
