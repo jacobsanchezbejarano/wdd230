@@ -53,7 +53,7 @@ function create_card(business){
 
 
     let h3 = document.createElement('h3');
-    p.textContent = business.name;
+    h3.textContent = business.name;
 
     let p1 = document.createElement('p');
     p1.textContent = business.phone;
