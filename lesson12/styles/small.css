@@ -25,11 +25,11 @@ font-family: 'Roboto', sans-serif;
     height: 300px;
 }
 .accent2 {
-    background-color: #dee5e5;
+    background-color: #6f8695;
     height: 300px;
 }
 .accent3 {
-    background-color: #6F8695;
+    background-color: #c9cba3;
     height: 300px;
 }
 
@@ -81,7 +81,7 @@ p {
 }
 
 nav {
-	background-color: #0C1D47;
+	background-color: #7fefbd;
 	text-align: center;
 	box-shadow: 0 0 30px #7E7F9A;
 }
