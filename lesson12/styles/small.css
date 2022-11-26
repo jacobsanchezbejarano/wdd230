@@ -98,7 +98,7 @@ nav div {
 
 nav a {
 	display: block;
-	color: #fff;
+	color: #271f30;
 	text-align: center;
 	padding: 15px;
 	text-decoration: none;
@@ -106,7 +106,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #7E7F9A;
+	background-color: #e40000;
 	color: #f4f7f5;
 }
 
