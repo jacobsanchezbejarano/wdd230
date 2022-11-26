@@ -10,17 +10,17 @@ font-family: 'Roboto', sans-serif;
 */
 
 .primary {
-    background-color: #e40000;
+    background-color: #7fefbd;
     color: #f4f7f5;
     height: 300px;
 }
 .secondary {
-    background-color: #271f30;
+    background-color: #e40000;
     color: #f4f7f5;
     height: 300px;
 }
 .accent1 {
-    background-color: #7fefbd;
+    background-color: #271f30;
     color: #f4f7f5;
     height: 300px;
 }
