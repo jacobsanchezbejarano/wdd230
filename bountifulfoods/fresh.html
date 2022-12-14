@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful foods provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas. The theme should support healthy eating, organic bounty, and convenience..">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <title>Bountiful Foods - Fresh</title>
+</head>
+<body>
+    <header>
+
+        <div class="first">
+            <img class="logo" src="./images/logo-bountiful-foods.webp" alt="Logo Bountiful Foods">
+            
+        </div>
+        <h3 class="header-title">Bountiful Foods</h3>
+        <div class="second">
+            <a href="https://www.facebook.com/"><img src="images/104498_facebook_icon.png" alt="icon-facebook"></a>
+            <a href="https://instagram.com/"><img src="images/1161953_instagram_icon.png" alt="icon-instagram"></a>
+            <a href="https://whatsapp.com/"><img src="images/843786_whatsapp_icon.png" alt="icon-whatsapp"></a>
+        </div>
+        <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="#">Fresh</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        
+    </header>
+    
+
+    <main>
+        <div id="message">
+        </div>
+
+        <div class="hero">
+            <div class="form-contact">
+                <h2>Make your own drink</h2>
+                <form method="get">
+                    <fieldset class="fs top">
+                        <legend>Order</legend>
+                        <label class="info">First name*
+                            <input type="text" id="firstname" name="firstname" required>
+                        </label>
+                        <label class="info">Email address*
+                            <input type="text" id="email" name="email" placeholder="example@exa.ex" required>
+                        </label>
+                        <label class="info">Phone number*  
+                            <input type="tel" id="phone" name="phone" placeholder="15646546444" required>
+                        </label>
+
+                        
+                        <div id="selects">
+
+                        </div>
+
+                        <label>Special instructions
+                            <textarea id="comments" name="comments"></textarea>
+                        </label>
+                        <input type="hidden" id="datetime" value="">
+                    </fieldset>
+    
+                    <input id="btnSubmit" type="button" value="Send">
+    
+    
+                </form>
+            </div>
+        </div>
+        
+
+    </main>
+
+
+
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="./images/logo-bountiful-foods.webp" alt="Logo Bountiful Foods">
+        </div>
+        <div class="title-footer">
+            <p>Bountiful foods</p>
+            <p>Carlsbad, CA</p>
+        </div>
+        <div class="contact">
+            <p>jake_76847@hotmail.com</p>
+            <p>+59177858921</p>
+            <p>
+                <a href="https://www.google.com/maps/place/San+Bartolo+St,+Carlsbad,+CA+92011,+EE.+UU./@33.09944,-117.311954,16z/data=!4m5!3m4!1s0x80dc732bb27892b7:0xf72c248f8c6f9b8c!8m2!3d33.0994401!4d-117.3119539?hl=es-419">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Location
+                </a></p>
+        </div>
+        <div class="info">
+
+            <p>
+                <span>&copy;<span id="©">
+                </span> Bountiful Foods</span>
+                <span class="hide-small">|</span>
+                <span>  Jacob Sanchez Bejarano </span>
+                <span class="hide-small">|</span>
+                <span>  WDD 230 Project </span>
+                <span class="hide-small">|</span>
+                <span>Last Modified: <span id="dateMod"></span></span>
+                
+            </p>
+            
+        </div>            
+    </footer>
+
+
+    <script src="scripts/date.js"></script>
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/jsonfruits.js"></script>
+    <script src="scripts/localstoragefresh.js"></script>
+</body>
+</html>

@@ -1,21 +1,23 @@
 @charset "UTF-8"; /* not necessary */
-/* #e40000  #271f30 #6f8695  #7fefbd #c9cba3 */
-/* Colors https://coolors.co/e40000-271f30-6f8695-7fefbd-c9cba3 */
+/* #BB3E3E  #271f30 #6f8695  #7fefbd #c9cba3 */
+/* Colors https://coolors.co/BB3E3E-271f30-6f8695-7fefbd-c9cba3 */
 /*
 
-font-family: 'Playfair Display', serif; HEADINGS
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+Headings
+font-family: 'Yusei Magic', sans-serif;
+
+Normal
+font-family: 'Anek Telugu', sans-serif;
 
 */
 
 .primary {
     background-color: #7fefbd;
-    color: #f4f7f5;
+    color: #271f30;
     height: 300px;
 }
 .secondary {
-    background-color: #e40000;
+    background-color: #BB3E3E;
     color: #f4f7f5;
     height: 300px;
 }
@@ -33,20 +35,24 @@ font-family: 'Roboto', sans-serif;
     height: 300px;
 }
 
+.colored {
+	background-color: #BB3E3E;
+	color: #f4f7f5;
+}
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anek Telugu', sans-serif;
 }
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	font-family: 'Anek Telugu', sans-serif;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 header,
@@ -106,7 +112,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #e40000;
+	background-color: #BB3E3E;
 	color: #f4f7f5;
 }
 
