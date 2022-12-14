@@ -27,7 +27,7 @@ function create_select(fruits,number) {
 
     let label = document.createElement('label');
     label.textContent = "Fruit "+number;
-
+    label.for = 'select'+number;
     label.classList.add('fruits-label');
     
     fruits.forEach(fruit => {
