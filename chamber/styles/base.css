@@ -367,6 +367,7 @@ main picture.photoA img {width: 100%;}
 
 picture.photoA {
     display: block;
+    margin: 0;
 }
 
 .aside-discover figcaption {
